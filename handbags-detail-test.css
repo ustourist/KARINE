@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+.all{
+	/*position: absolute;*/
+	width: 100%;
+	/*height: 100%;*/
+	/*border: 5px solid #fa0;*/
+}
+
+
+
+.mm{
+	/*position: absolute;*/
+	width: 70%;
+	border: 2px solid #0f0;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	padding: 135px 0;
+}
+
+.mm .mcontbox{
+	width: 60%;
+	right: 0;
+	left: 0;
+	margin: auto;
+	/*border: 2px solid #f00;*/
+	font-size: 0;
+}
+
+.mm .mcontbox .pho{
+	width: 45%;
+	/*border: 1px solid #ff0;*/
+	display: inline-block;
+}
+
+.mm .mcontbox img{
+	max-width: 100%;
+}
+
+.mm .mcontbox .photxt{
+	width: 50%;
+	margin: 5% 0%;
+	/*border: 1px solid #f0f;*/
+	display: inline-block;
+	font-size: 10px;
+	line-height: 20px;
+	vertical-align: bottom;
+}
+.mm .mcontbox .photxt1{
+	font-size: 16px;
+	line-height: 30px;
+}
+.mm .mcontbox .photxmar{
+	margin-right: 5%;
+}
+
+.mm .mcontbox .photxt p{
+	font-size: 20px;
+}
+
+
+
+.rr{
+	position: fixed;
+	width: 15%;
+	/*height: 100%;*/
+	border: 2px solid #f0f;
+	right: 0;
+	top: 0;
+	margin: auto;
+	text-align: right;
+	padding: 135px 0 0 0;
+	font-family: 'Ebrima';
+}

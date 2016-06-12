@@ -1,0 +1,442 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+.all{
+	/*position: absolute;*/
+	width: 100%;
+	/*height: 100%;*/
+	/*border: 5px solid #fa0;*/
+}
+
+
+
+.mm{
+	position: relative;
+	width: 40%;
+	/*border: 2px solid #0f0;*/
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	padding: 135px 0%;
+}
+.mm	.shoeslidertop{
+	position: relative;
+	/*border: 3px solid #a0a;*/
+	display: flex;
+	display: -webkit-flex;
+	font-size: 0;
+}
+
+.mm	.shoeslidertop .arle:before{
+	content: '';
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.mm	.shoeslidertop .arri:before{
+	content: '';
+	width: 0;
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.mm	.shoeslidertop .arle{
+	position: absolute;
+	/*width: 10%;*/
+	left: 0%;
+	height: 100%;
+	display: inline-block;
+	/*border: 1px solid #a00;*/
+	z-index: 50;
+	cursor: pointer;
+}
+.mm	.shoeslidertop .arri{
+	position: absolute;
+	/*width: 10%;*/
+	right: 0%;
+	height: 100%;
+	display: inline-block;
+	/*border: 1px solid #a00;*/
+	z-index: 50;
+	cursor: pointer;
+}
+
+.mm .shoeslidertop .shoebbslider{
+	position: relative;
+	width: 70%;
+	/*border: 2px solid #f00;*/
+	margin: auto;
+	overflow: hidden;
+	display: inline-block;
+}
+
+
+
+.mm .shoeslidertop .shoebbslider .shoedebox{
+	/*position: absolute;*/
+	width: 100%;
+	/*border: 1px solid #00f;*/
+	overflow: hidden;
+	position: relative;
+	cursor: zoom-in;
+}
+
+.mm .shoeslidertop .shoebbslider .shoedebox .shoede{
+	width: 33.333333333333333%;
+	height: 100%;
+	float: left;
+	overflow: hidden;
+	/*border: 1px solid #3fa;*/
+}
+
+.mm .shoeslidertop .shoebbslider .shoedebox .shoede img{
+	width: 100%;
+}
+
+.lightboxx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	/*border: 5px solid #f00;*/
+	z-index: 100;
+	cursor: zoom-out;
+	display: none;
+}
+.lightboxx img{
+	width: 100%;
+}
+
+
+.mm .shoemmsli{
+	margin-top:10px;
+	text-align:center;
+	position: relative;
+	bottom: 15%;
+	left:0;
+	right: 0;
+	padding: 0;
+	z-index: 50;
+	/*border: 5px solid #aa0;*/
+}
+
+.mm .shoemmsli li{
+	display:inline-block;
+	width: 15%;
+	background-color:rgba(255,255,255,0.6);
+	cursor:pointer;
+	transition: 0.5s;
+	margin:5px;
+	/*border: 3px solid #0cc;*/
+	opacity: 0.36;
+}
+
+.mm .shoemmsli li img{
+	max-width: 100%;
+	border: 1px solid #ddd;
+}
+
+.mm .shoemmsli .active{
+	opacity: 1;
+}
+
+
+
+
+.rr{
+	width: 30%;
+	/*border: 2px solid #f0f;*/
+	/*right: 0;
+	top: 0;
+	margin: auto;*/
+	float: right;
+	text-align: center;
+	padding: 135px 0;
+	/*font-family: 'Malgun Gothic';*/
+	font-family: 'Segoe UI Semibold';
+}
+.rr .shoebtnba{
+	/*border: 1px solid #888;*/
+	margin: 0 5% 5% 5%;
+	font-size: 14px;
+}
+
+.rr .shoetxt{
+	border: 1px solid #fafafa;
+	background: #fafafa;
+	padding: 20px;
+	margin: 0 5% 0 5%;
+	font-size: 12px;
+	color: #777;
+	line-height: 18px;
+}
+
+.rr .shoetxt p{
+	font-size: 14px;
+	color: #025;
+}
+
+.rr .shoetxt .shoebtnbuy{
+	/*border: 1px solid #025;*/
+	background: #025;
+	padding: 15px;
+	font-size: 12px;
+	color: #eee;
+	display: block;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.rr{
+		/*position: relative;*/
+		width: 100%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 50px 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+		float: none;
+	}
+
+	.rr .shoebtnba{
+		/*border: 1px solid #888;*/
+		margin: 0 5% 5% 5%;
+		font-size: 22px;
+	}
+
+	.rr .shoetxt{
+		border: 1px solid #fafafa;
+		background: #fafafa;
+		padding: 20px;
+		margin: 0 5% 0 5%;
+		font-size: 16px;
+		color: #777;
+	}
+
+	.mm{
+		/*position: absolute;*/
+		width: 100%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0 135px 0;
+		/*overflow: hidden;*/
+	}
+	.mm	.shoeslidertop{
+		position: relative;
+		/*border: 3px solid #a0a;*/
+		display: flex;
+		font-size: 0;
+	}
+	.mm	.shoeslidertop .arle{
+		position: absolute;
+		/*width: 10%;*/
+		left: 1%;
+		height: 100%;
+		display: inline-block;
+		/*border: 1px solid #a00;*/
+		z-index: 50;
+	}
+	.mm	.shoeslidertop .arri{
+		position: absolute;
+		/*width: 10%;*/
+		right: 1%;
+		height: 100%;
+		display: inline-block;
+		/*border: 1px solid #a00;*/
+		z-index: 50;
+	}
+	.mm .shoeslidertop .shoebbslider{
+		position: relative;
+		width: 70%;
+		/*border: 2px solid #f00;*/
+		margin: auto;
+		overflow: hidden;
+		display: inline-block;
+	}
+
+
+
+	.mm .shoeslidertop .shoebbslider .shoedebox{
+		/*position: absolute;*/
+		width: 100%;
+		/*border: 1px solid #00f;*/
+		overflow: hidden;
+		position: relative;
+		cursor: zoom-in;
+	}
+
+	.mm .shoeslidertop .shoebbslider .shoedebox .shoede{
+		width: 33.333333333333333%;
+		height: 100%;
+		float: left;
+		overflow: hidden;
+		/*border: 1px solid #3fa;*/
+	}
+
+	.mm .shoeslidertop .shoebbslider .shoedebox .shoede img{
+		width: 100%;
+	}
+
+
+}
+
+@media only screen and (min-width : 481px) and (max-device-width : 767px){
+
+	.rr{
+		position: relative;
+		width: 100%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 50px 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+		float: none;
+	}
+
+	.rr .shoebtnba{
+		/*border: 1px solid #888;*/
+		margin: 0 5% 5% 5%;
+		font-size: 22px;
+	}
+
+	.rr .shoetxt{
+		border: 1px solid #fafafa;
+		background: #fafafa;
+		padding: 20px;
+		margin: 0 5% 0 5%;
+		font-size: 16px;
+		color: #777;
+	}
+
+	.mm{
+		/*position: absolute;*/
+		width: 100%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0 135px 0;
+		/*overflow: hidden;*/
+	}
+	.mm	.shoeslidertop .arle{
+		position: absolute;
+		/*width: 10%;*/
+		left: 5%;
+		height: 100%;
+		display: inline-block;
+		/*border: 1px solid #a00;*/
+		z-index: 50;
+	}
+	.mm	.shoeslidertop .arri{
+		position: absolute;
+		/*width: 10%;*/
+		right: 5%;
+		height: 100%;
+		display: inline-block;
+		/*border: 1px solid #a00;*/
+		z-index: 50;
+	}
+
+
+
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.mm{
+		/*position: absolute;*/
+		width: 80%;
+		/*border: 2px solid #0f0;*/
+		/*right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;*/
+		float: right;
+		padding: 50px 0 135px 0;
+		/*overflow: hidden;*/
+	}
+
+	.mm	.shoeslidertop .arle{
+		position: absolute;
+		/*width: 10%;*/
+		left: 5%;
+		height: 100%;
+		display: inline-block;
+		/*border: 1px solid #a00;*/
+		z-index: 50;
+	}
+	.mm	.shoeslidertop .arri{
+		position: absolute;
+		/*width: 10%;*/
+		right: 5%;
+		height: 100%;
+		display: inline-block;
+		/*border: 1px solid #a00;*/
+		z-index: 50;
+	}
+	
+
+
+	.rr{
+		/*position: relative;*/
+		width: 80%;
+		/*border: 2px solid #f0f;*/
+		left: 0;
+		right: 0;
+		top: 0;
+		margin: auto;
+		float: right;
+		text-align: center;
+		padding: 135px 0 50px 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+	}
+
+	.rr .shoebtnba{
+		/*border: 1px solid #888;*/
+		margin: 0 5% 5% 5%;
+		font-size: 16px;
+	}
+
+	.rr .shoetxt{
+		border: 1px solid #fafafa;
+		background: #fafafa;
+		padding: 20px;
+		margin: 0 5% 0 5%;
+		font-size: 16px;
+		color: #777;
+	}
+}

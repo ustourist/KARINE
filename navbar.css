@@ -1,0 +1,310 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+.ll{
+  position: fixed;
+  width: 15%;
+  min-width: 158px;
+  /*height: 100%;*/
+  /*border: 2px solid #00f;*/
+  top: 0;
+  left: 0;
+  margin: auto;
+  z-index: 99;
+}
+
+.ll ul{
+  /*position: absolute;*/
+  width: 100%;
+  /*border-bottom: 1px solid #ddd;*/
+  text-align: left;
+  left: 0;
+  top: 0;
+  font-family: 'Ebrima';
+  /*z-index: 999;*/
+  font-size: 14px;
+  font-weight: 600;
+}
+
+ul li{
+  display: block;
+  /*width: 100%;*/
+  /*height: 30px;*/
+  /*border-top: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-left: 1px solid #ddd;*/
+  line-height: 30px;
+  padding: 0;
+}
+
+.liclick{
+  background-image: url(navbg.gif);
+  background-size: 100% 100%;
+  /*background-position: left center;*/
+}
+
+
+ul li a{
+    color: #000;
+    /*border: 1px solid #0f0;*/
+    display: block;
+    padding: 0 10px 0 20%;
+}
+ul li .logob{
+  padding: 0;
+}
+ul li a img{
+  max-width: 100%;
+}
+.logoW{
+  display: none;
+}
+.logoB{
+  display: block;
+}
+.logosmall{
+  padding: 60px 0px 24px 15%;
+  font-size: 0;
+  background: none;
+}
+.suba{
+  display: block;
+  /*border: 2px solid #dd3;*/
+}
+.suba li{
+  /*border: 1px solid #a00;*/
+  padding: 0 0 0 20%;
+  font-size: 12px;
+  font-family: 'Ebrima';
+  font-weight: 100;
+}
+.suba li a{
+  padding: 0;
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .ll{
+    position: relative;
+    width: 100%;
+    /*height: 50px;*/
+    /*border: 1px solid #00f;*/
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 99;
+    
+  }
+
+  .ll ul{
+    /*position: absolute;*/
+    width: 100%;
+    /*border-bottom: 1px solid #ddd;*/
+    text-align: left;
+    left: 0;
+    top: 0;
+    font-family: 'Ebrima';
+    /*z-index: 999;*/
+    font-size: 16px;
+    font-weight: 600;
+    /*border: 2px solid #f00;*/
+    background: #fff;
+  }
+  .menu li{
+    position: relative;
+    display: none;
+    /*width: 100%;*/
+    border-top: 1px solid #efefef;
+    line-height: 30px;
+    padding: 10px 0;
+    left: -100%;
+    transition: 0.3s;
+  }
+  .menu .logosmall{
+    position: relative;
+    background: #025;
+    left: 0;
+    display: block;
+  }
+
+  .menu .limove{
+    position: relative;
+    left: 0%;
+  }
+
+  .menu li .burbtn{
+    width: 8%;
+    font-size: 16px;
+    margin: 0 30px 0 30px;
+    color: #fff;
+    /*border: 2px solid #0f0;*/
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .menu li .burbtn .bur{
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin: 6px 0;
+  }
+
+  ul li a{
+    color: #000;
+    /*border: 1px solid #0f0;*/
+    padding: 0 30px;
+  }
+
+
+  /*ul li .logob{
+    position: absolute;
+    width: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+  }*/
+
+  ul li .logob{
+    position: relative;
+    left: 7%;
+    /*right: 0%;*/
+    margin: auto;
+    /*display: none;*/
+    /*border: 1px solid #ff0;*/
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  ul li .logob img{
+    vertical-align: middle;
+    max-width: 100%; 
+  }
+  .logoB{
+    display: none;
+  }
+  .logoW{
+    display: block;
+  }
+  
+  .liclick{
+    background-image: none;
+  }
+
+}
+
+
+@media only screen and (min-width : 481px) and (max-device-width : 767px){
+  .ll{
+    position: relative;
+    width: 100%;
+    /*height: 50px;*/
+    /*border: 1px solid #00f;*/
+    top: 0;
+    left: 0;
+    margin: auto;
+    z-index: 99;
+    
+  }
+
+  .ll ul{
+    /*position: absolute;*/
+    width: 100%;
+    /*border-bottom: 1px solid #ddd;*/
+    text-align: left;
+    left: 0;
+    top: 0;
+    font-family: 'Ebrima';
+    /*z-index: 999;*/
+    font-size: 16px;
+    font-weight: 600;
+    /*border: 2px solid #f00;*/
+    background: #fff;
+  }
+  .menu li{
+    position: relative;
+    display: none;
+    /*width: 100%;*/
+    border-top: 1px solid #efefef;
+    line-height: 30px;
+    padding: 10px 0;
+    left: -100%;
+    transition: 0.3s;
+  }
+  .menu .logosmall{
+    position: relative;
+    background: #025;
+    left: 0;
+    display: block;
+  }
+
+  .menu .limove{
+    position: relative;
+    left: 0%;
+  }
+
+  .menu li .burbtn{
+    width: 8%;
+    font-size: 16px;
+    margin: 0 30px 0 30px;
+    color: #fff;
+    /*border: 2px solid #0f0;*/
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .menu li .burbtn .bur{
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    margin: 6px 0;
+  }
+
+  ul li a{
+    color: #000;
+    /*border: 1px solid #0f0;*/
+    padding: 0 30px;
+  }
+
+
+  ul li .logob{
+    position: relative;
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*left: 0;*/
+    right: -20%;
+    /*margin: auto;*/
+    /*padding: 0;*/
+    /*display: none;*/
+    /*border: 1px solid #ff0;*/
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  ul li .logob img{
+    vertical-align: middle;
+    max-width: 100%; 
+  }
+  .logoB{
+    display: none;
+  }
+  .logoW{
+    display: block;
+  }
+  
+  .liclick{
+    background-image: none;
+  }
+}

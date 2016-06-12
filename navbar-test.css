@@ -1,0 +1,53 @@
+.ll{
+	position: fixed;
+	width: 15%;
+	min-width: 150px;
+	/*height: 100%;*/
+	/*border: 2px solid #00f;*/
+	top: 0;
+	left: 0;
+	margin: auto;
+}
+
+.ll ul{
+	/*position: absolute;*/
+	width: 100%;
+	/*border-bottom: 1px solid #ddd;*/
+	text-align: left;
+	left: 0;
+	top: 0;
+	font-family: 'Ebrima';
+	/*z-index: 999;*/
+	font-size: 14px;
+	font-weight: 600;
+}
+
+ul li{
+	display: block;
+	/*width: 100%;*/
+	height: 30px;
+	/*border-top: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;*/
+	line-height: 30px;
+	padding: 0 10px 0 20%;
+}
+
+.liclick{
+	background-image: url(navbg.gif);
+	background-size: 100% 100%;
+	/*background-position: left center;*/
+}
+
+ul li a{
+    color: #000;
+}
+ul li a img{
+	max-width: 100%;
+}
+
+.logosmall{
+    padding: 60px 0px 50px 15%;
+    font-size: 0;
+    background: none;
+}

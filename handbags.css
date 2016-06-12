@@ -1,0 +1,302 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+.all{
+	/*position: absolute;*/
+	width: 100%;
+	/*height: 100%;*/
+	/*border: 5px solid #fa0;*/
+}
+
+
+
+.mm{
+	/*position: absolute;*/
+	width: 70%;
+	min-width: 540px;
+	/*width: 40%;*/
+	/*border: 2px solid #0f0;*/
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	padding: 135px 0;
+}
+.mm .bags{
+	/*position: relative;*/
+	/*width: 50%;*/
+	width: 540px;
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	/*border: 1px solid #fa5;*/
+}
+
+
+.mm .bags .pha{
+	width: 120px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	/*border: 1px solid #0f0;*/
+	display: inline-block;
+	vertical-align: top;
+	/*border: 2px solid #f00;*/
+/*	-webkit-filter: blur(2px);
+	   -moz-filter: blur(2px);
+	     -ms-filter:blur(2px);
+	         filter:blur(2px);*/
+}
+
+.mm .bags .ph1{
+	margin-left: 145px;
+}
+.mm .bags .phb{
+	width: 255px;
+	margin: 0 145px;
+	margin-bottom: 10px; 
+	display: inline-block;
+	vertical-align: top;
+	/*border: 2px solid #00f;*/
+/*	-webkit-filter: blur(2px);
+	   -moz-filter: blur(2px);
+	     -ms-filter:blur(2px);
+	         filter:blur(2px);*/
+	/*border: 1px solid #f00;*/
+}
+
+/*.mm .bags .pha:hover , .mm .bags .phb:hover{
+	-webkit-filter: blur(0px);
+	   -moz-filter: blur(0px);
+	     -ms-filter:blur(0px);
+	         filter:blur(0px);
+}*/
+
+.mm .bags .pha img{
+	max-width: 100%;
+}
+
+.mm .bags .phb img{
+	max-width: 100%;
+}
+
+.lightboxx{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 100%;
+	/*border: 5px solid #f00;*/
+	z-index: 100;
+	cursor: zoom-out;
+}
+
+
+
+.rr{
+	position: fixed;
+	width: 15%;
+	/*height: 100%;*/
+	/*border: 2px solid #f0f;*/
+	right: 0;
+	top: 0;
+	margin: auto;
+	text-align: center;
+	padding: 135px 0 0 0;
+	/*font-family: 'Malgun Gothic';*/
+	font-family: 'Segoe UI Semibold';
+
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.mm{
+		/*position: absolute;*/
+		width: 100%;
+		min-width: 320px;
+		/*width: 40%;*/
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0;
+	}
+	.mm .bags{
+		/*position: relative;*/
+		width: 90%;
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		/*border: 1px solid #fa5;*/
+	}
+
+	.mm .bags .pha{
+		width: 45%;
+		margin: 0 2%;
+		margin-bottom: 10px;
+		/*border: 1px solid #0f0;*/
+		display: inline-block;
+		vertical-align: top;
+		/*border: 1px solid #00f;*/
+	/*	-webkit-filter: blur(2px);
+		   -moz-filter: blur(2px);
+		     -ms-filter:blur(2px);
+		         filter:blur(2px);*/
+	}
+	.mm .bags .phb{
+		width: 95%;
+		margin: 0 0 0 145px;
+		margin-bottom: 10px; 
+		display: inline-block;
+		vertical-align: top;
+	/*	-webkit-filter: blur(2px);
+		   -moz-filter: blur(2px);
+		     -ms-filter:blur(2px);
+		         filter:blur(2px);*/
+		/*border: 1px solid #f00;*/
+	}
+	.mm .bags .ph1{
+		margin-left: 5px;
+	}
+
+
+
+	.rr{
+		position: fixed;
+		width: 0%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 135px 0 0 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+
+	}
+}
+
+@media only screen and (min-width : 481px) and (max-device-width : 767px){
+	.mm{
+		/*position: absolute;*/
+		width: 100%;
+		min-width: 320px;
+		/*width: 40%;*/
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0;
+	}
+	.mm .bags{
+		/*position: relative;*/
+		width: 90%;
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		/*border: 1px solid #fa5;*/
+	}
+
+	.mm .bags .pha{
+		width: 45%;
+		margin: 0 2%;
+		margin-bottom: 10px;
+		/*border: 1px solid #0f0;*/
+		display: inline-block;
+		vertical-align: top;
+		/*border: 1px solid #00f;*/
+	/*	-webkit-filter: blur(2px);
+		   -moz-filter: blur(2px);
+		     -ms-filter:blur(2px);
+		         filter:blur(2px);*/
+	}
+	.mm .bags .phb{
+		width: 95%;
+		margin: 0 0 0 145px;
+		margin-bottom: 10px; 
+		display: inline-block;
+		vertical-align: top;
+	/*	-webkit-filter: blur(2px);
+		   -moz-filter: blur(2px);
+		     -ms-filter:blur(2px);
+		         filter:blur(2px);*/
+		/*border: 1px solid #f00;*/
+	}
+	.mm .bags .ph1{
+		margin-left: 15px;
+	}
+	
+
+
+	.rr{
+		position: fixed;
+		width: 0%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 135px 0 0 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+
+	}
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.mm{
+		/*position: absolute;*/
+		width: 60%;
+		min-width: 60%;
+		/*width: 40%;*/
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 135px 0;
+	}
+	.mm .bags{
+		/*position: relative;*/
+		/*width: 50%;*/
+		width: 90%;
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		/*border: 1px solid #fa5;*/
+	}
+
+
+
+	.rr{
+		position: fixed;
+		width: 20%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 135px 0 0 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+
+	}
+}

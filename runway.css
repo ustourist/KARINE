@@ -1,0 +1,369 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+
+.all{
+	/*position: absolute;*/
+	width: 100%;
+	/*height: 100%;*/
+	/*border: 5px solid #fa0;*/
+}
+
+
+.mm{
+	/*position: absolute;*/
+	width: 70%;
+	/*border: 2px solid #0f0;*/
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	padding: 135px 0;
+}
+
+.mm .ph img{
+	max-width: 100%;
+}
+.mm a{
+	color: #000;
+}
+
+.ph{
+	width: 31%;
+	height: 30%;
+	/*border: 1px solid #f00;*/
+	display: inline-block;
+	text-align: center;
+	margin: 1% 0.8% 5% 0.8%;
+}
+
+.phtxt{
+	padding: 10px 0;
+	opacity: 0;
+	transition: 0.8s;
+}
+.ph:hover .phtxt{
+	opacity: 1;
+	transition: 0.8s;
+}
+
+
+
+.rr{
+	position: fixed;
+	width: 15%;
+	/*height: 100%;*/
+	/*border: 2px solid #f0f;*/
+	right: 0;
+	top: 0;
+	margin: auto;
+	text-align: right;
+	padding: 135px 0 0 0;
+	font-family: 'Ebrima';
+}
+
+
+.rr .maincolor{
+	/*border: 2px solid #cfa; */
+}
+.rr .maincolor li{
+	padding: 0 20% 0 0;
+	font-size: 12px;
+	display: inline-block; 
+	/*border: 1px solid #f00;*/
+}
+.rr .maincolor .maintitle{
+	font-size: 16px;
+	cursor: default;
+}
+.rr .maincolor .maintitle .sub{
+	/*border: 1px solid #0f0;*/
+}
+.rr .maincolor .maintitle .sub li{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	padding: 0;
+	/*border: 1px solid #fc0;*/
+	vertical-align: middle;
+	line-height: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+
+.R{
+	background: #faa;
+}
+.BU{
+	background: #22b;
+}
+.Y{
+	background: #ffc;
+}
+.BK{
+	background: #222;
+}
+.BR{
+	background: #750;
+}
+.ALLC{
+	/*border: 1px solid #000;*/
+	background: #000;
+	color:#fff;
+}
+
+.ALLSTY{
+	background: none;
+	color: #000;
+}
+
+
+.rr .mainstyle{
+	/*border: 2px solid #ca0; */
+	margin: 20px 0;
+	/*cursor: pointer;*/
+}
+.rr .mainstyle li{
+	padding: 0 20% 0 10px;
+	font-size: 12px;
+	cursor: pointer;
+	/*border: 2px solid #fa0; */
+}
+.rr .mainstyle .maintitle{
+	font-size: 16px;
+	cursor: default;
+}
+.rr .mainstyle .maintitle .sub li{
+	padding: 3px 0;
+	/*border: 1px solid #fc0;*/
+	vertical-align: middle;
+	line-height: 20px;
+	cursor: pointer;
+	/*text-align: center;*/
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+	.all{
+		position: relative;
+		width: 100%;
+		/*border: 5px solid #fa0;*/
+	}
+
+	.mm{
+		/*position: absolute;*/
+		width: 90%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0;
+	}
+
+	.ph{
+		width: 48%;
+		height: 30%;
+		/*border: 1px solid #f00;*/
+		display: inline-block;
+		text-align: center;
+		margin: 1% 0.5% 5% 0.5%;
+	}
+
+	.rr{
+		position: relative;
+		width: 90%;
+		text-align: center;
+		padding: 50px 0;
+		font-family: 'Ebrima';
+	}
+	.rr .maincolor li{
+		padding: 0;
+		font-size: 12px;
+		display: inline-block; 
+		/*border: 1px solid #f00;*/
+	}
+
+	.rr .mainstyle li{
+		padding: 0;
+		font-size: 12px;
+		cursor: pointer;
+		/*border: 1px solid #fa0; */
+		display: inline-block;
+	}
+	.rr .mainstyle .maintitle .sub{
+		font-size: 0;
+	}
+	.rr .mainstyle .maintitle .sub li{
+		padding: 3px 8px;
+		/*border: 1px solid #fc0;*/
+		vertical-align: middle;
+		line-height: 20px;
+		cursor: pointer;
+	}
+
+
+}
+
+@media only screen and (min-width : 481px) and (max-device-width : 767px){
+	.all{
+		position: relative;
+		width: 100%;
+		/*border: 5px solid #fa0;*/
+	}
+
+	.mm{
+		/*position: absolute;*/
+		width: 90%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0;
+	}
+
+	.ph{
+		width: 48%;
+		height: 30%;
+		/*border: 1px solid #f00;*/
+		display: inline-block;
+		text-align: center;
+		margin: 1% 0.5% 5% 0.5%;
+	}
+
+	.rr{
+		position: relative;
+		width: 90%;
+		text-align: center;
+		padding: 50px 0;
+		font-family: 'Ebrima';
+	}
+	.rr .maincolor li{
+		padding: 0;
+		font-size: 12px;
+		display: inline-block; 
+		/*border: 1px solid #f00;*/
+	}
+
+	.rr .mainstyle li{
+		padding: 0;
+		font-size: 12px;
+		cursor: pointer;
+		/*border: 1px solid #fa0; */
+		display: inline-block;
+	}
+	.rr .mainstyle .maintitle .sub{
+		font-size: 0;
+	}
+	.rr .mainstyle .maintitle .sub li{
+		padding: 3px 8px;
+		/*border: 1px solid #fc0;*/
+		vertical-align: middle;
+		line-height: 20px;
+		cursor: pointer;
+	}
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.mm{
+		/*position: absolute;*/
+		width: 60%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 135px 0;
+	}
+
+
+	.ph{
+		width: 42%;
+		height: 30%;
+		/*border: 1px solid #f00;*/
+		display: inline-block;
+		text-align: center;
+		margin: 1% 3% 5% 3%;
+	}
+
+
+
+
+	.rr{
+		position: fixed;
+		width: 20%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: right;
+		padding: 135px 0 0 0;
+		font-family: 'Ebrima';
+	}
+
+
+	.rr .maincolor{
+		/*border: 2px solid #cfa; */
+	}
+	.rr .maincolor li{
+		padding: 0 20% 0 0;
+		font-size: 12px;
+		display: inline-block; 
+		/*border: 1px solid #f00;*/
+	}
+	.rr .maincolor .maintitle{
+		font-size: 20px;
+		cursor: default;
+	}
+	.rr .maincolor .maintitle .sub{
+		/*border: 1px solid #0f0;*/
+	}
+	.rr .maincolor .maintitle .sub li{
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		padding: 0;
+		/*border: 1px solid #fc0;*/
+		vertical-align: middle;
+		line-height: 20px;
+		cursor: pointer;
+		text-align: center;
+	}
+
+	.rr .mainstyle{
+		/*border: 2px solid #ca0; */
+		margin: 20px 0;
+		/*cursor: pointer;*/
+	}
+	.rr .mainstyle li{
+		padding: 0 20% 0 10px;
+		font-size: 14px;
+		cursor: pointer;
+		/*border: 2px solid #fa0; */
+	}
+	.rr .mainstyle .maintitle{
+		font-size: 20px;
+		cursor: default;
+	}
+	.rr .mainstyle .maintitle .sub li{
+		padding: 3px 0;
+		/*border: 1px solid #fc0;*/
+		vertical-align: middle;
+		line-height: 20px;
+		cursor: pointer;
+		/*text-align: center;*/
+	}
+}

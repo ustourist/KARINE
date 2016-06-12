@@ -1,0 +1,276 @@
+*{
+    padding:0;
+    margin:0;
+    border:0;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+.all{
+	/*position: absolute;*/
+	width: 100%;
+	/*height: 100%;*/
+	/*border: 5px solid #fa0;*/
+}
+
+
+
+.mm{
+	/*position: absolute;*/
+	width: 40%;
+	/*border: 2px solid #0f0;*/
+	right: 0;
+	left: 0;
+	top: 0;
+	margin: auto;
+	padding: 135px 0%;
+	/*overflow: hidden;*/
+}
+
+
+.mm .bridalslide{
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid #95b;*/
+	font-size: 0;
+	/*overflow: hidden;*/
+}
+
+.mm .bridalslide .bridalslph{
+	position: relative;
+	/*border: 1px solid #da5;*/
+	display: inline-block;
+	padding: 0;
+	margin-bottom: 50px;
+	width: 90%;
+	height: 100%;
+	font-size: 0;
+	line-height: 16px;
+	padding: 0 5%;
+}
+.mm .bridalslide .bridalslph .aa1{
+	width: 100%;
+	/*border: 1px solid #00f;*/
+	float: left;
+	font-size: 12px;
+	/*padding: 0 5%;*/
+}
+.mm .bridalslide .bridalslph .aa1:hover .aa{
+	background: rgba(256,256,256,0.8);
+	opacity: 1;
+}
+.mm .bridalslide .bridalslph .aa{
+	position: absolute;
+	bottom: 0;
+	margin: auto;
+	width: 90%;
+	/*background: rgba(256,256,256,0.8);*/
+	/*border: 5px solid #ff0;*/
+	font-size: 12px;
+	opacity: 0;
+	padding: 50px 0;
+	z-index: 10;
+	text-align: center;
+	transition: 0.5s;
+}
+.mm .bridalslide .bridalslph .aa2{
+	width: 100%;
+	padding: 50px 0;
+	/*border: 1px solid #3ca;*/
+	float: left;
+	font-size: 20px;
+	text-align: center;
+	display: none;
+}
+.mm .bridalslide .bridalslph .aa1 img{
+	max-width: 100%;
+}
+
+
+
+
+
+.rr{
+	position: fixed;
+	width: 30%;
+	/*height: 100%;*/
+	/*border: 2px solid #f0f;*/
+	right: 0;
+	top: 0;
+	margin: auto;
+	text-align: center;
+	padding: 135px 0 0 0;
+	/*font-family: 'Malgun Gothic';*/
+	font-family: 'Segoe UI Semibold';
+
+}
+.rr .bridalbtnba{
+	/*border: 1px solid #888;*/
+	margin: 0 5% 5% 5%;
+	font-size: 14px;
+}
+
+.rr .bridaltxt{
+	border: 1px solid #fafafa;
+	background: #fafafa;
+	padding: 20px;
+	margin: 0 5% 0 5%;
+	font-size: 14px;
+	color: #777;
+}
+
+.rr .bridaltxt .bridalbtnbuy{
+	border: 1px solid #025;
+	background: #025;
+	padding: 15px;
+	font-size: 14px;
+	color: #eee;
+	display: block;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.rr{
+		position: relative;
+		width: 100%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 50px 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+
+	}
+
+	.rr .bridalbtnba{
+		/*border: 1px solid #888;*/
+		margin: 0 5% 5% 5%;
+		font-size: 22px;
+	}
+
+	.rr .bridaltxt{
+		border: 1px solid #fafafa;
+		background: #fafafa;
+		padding: 20px;
+		margin: 0 5% 0 5%;
+		font-size: 16px;
+		color: #777;
+	}
+
+
+	.mm{
+		/*position: absolute;*/
+		width: 100%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0%;
+		/*overflow: hidden;*/
+	}
+
+	.mm .bridalslide .bridalslph .aa{
+		position: absolute;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		/*background: rgba(256,256,256,0.8);*/
+		/*border: 5px solid #ff0;*/
+		font-size: 12px;
+		opacity: 0;
+		padding: 50px 0;
+		z-index: 10;
+		text-align: center;
+		transition: 0.5s;
+		display: none;
+	}
+
+	.mm .bridalslide .bridalslph .aa2{
+		width: 100%;
+		padding: 50px 0;
+		/*border: 1px solid #3ca;*/
+		float: left;
+		font-size: 20px;
+		text-align: center;
+		display: block;
+	}
+}
+
+@media only screen and (min-width : 481px) and (max-device-width : 767px){
+	.rr{
+		position: relative;
+		width: 100%;
+		/*height: 100%;*/
+		/*border: 2px solid #f0f;*/
+		right: 0;
+		top: 0;
+		margin: auto;
+		text-align: center;
+		padding: 50px 0;
+		/*font-family: 'Malgun Gothic';*/
+		font-family: 'Segoe UI Semibold';
+
+	}
+
+	.rr .bridalbtnba{
+		/*border: 1px solid #888;*/
+		margin: 0 5% 5% 5%;
+		font-size: 22px;
+	}
+
+	.rr .bridaltxt{
+		border: 1px solid #fafafa;
+		background: #fafafa;
+		padding: 20px;
+		margin: 0 5% 0 5%;
+		font-size: 16px;
+		color: #777;
+	}
+
+
+	.mm{
+		/*position: absolute;*/
+		width: 100%;
+		/*border: 2px solid #0f0;*/
+		right: 0;
+		left: 0;
+		top: 0;
+		margin: auto;
+		padding: 50px 0%;
+		/*overflow: hidden;*/
+	}
+
+	.mm .bridalslide .bridalslph .aa{
+		position: absolute;
+		bottom: 0;
+		margin: auto;
+		width: 90%;
+		/*background: rgba(256,256,256,0.8);*/
+		border: 5px solid #ff0;
+		font-size: 12px;
+		opacity: 0;
+		padding: 50px 0;
+		z-index: 10;
+		text-align: center;
+		transition: 0.5s;
+		display: none;
+	}
+
+	.mm .bridalslide .bridalslph .aa2{
+		width: 100%;
+		padding: 50px 0;
+		/*border: 1px solid #3ca;*/
+		float: left;
+		font-size: 20px;
+		text-align: center;
+		display: block;
+	}
+}
